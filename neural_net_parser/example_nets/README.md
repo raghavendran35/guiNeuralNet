@@ -3,5 +3,4 @@
 `pip install torch`
 
 tf > 2.x
-kera > 2.x
-
+keras > 2.x

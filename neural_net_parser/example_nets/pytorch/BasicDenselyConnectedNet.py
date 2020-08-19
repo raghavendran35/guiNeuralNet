@@ -36,3 +36,4 @@ class BasicNet(nn.Module):
     def forward(self, x):
         x = self.stuff(x)
         return x
+        
