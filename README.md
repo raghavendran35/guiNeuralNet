@@ -1,6 +1,9 @@
-backendNeuralNetGUI
+Neural Net UI
+
+This is the code for drag-and-drop neural net UI
 
 python > 3.x
+
 `pip install flask`
 
 Make sure it can be invoked by doing `python3 -i` and then doing `import flask` without error
