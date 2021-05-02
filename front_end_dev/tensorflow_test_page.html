@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+ function allowDropThis(i) {
+   i.preventDefault();
+ }
+
+ function dragThis(i) {
+   i.dataTransfer.setData("doggo", i.target.id);
+ }
+
+ function dropThis(i) {
+   i.preventDefault();
+   var data = i.dataTransfer.getData("doggo");
+   i.target.appendChild(document.getElementById(data));
+ }
+</script>
+</head>
+<body>
+
+<h2>Drag and Drop</h2>
+
+<p>Drag Doggo between these the two elements.</p>
+
+<div id="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+  <img src="https://cdn.bitdegree.org/learn/pom-laptop.png?raw=true" draggable="true" ondragstart="dragThis(event)" id="drag1" width="220" height="220">
+</div>
+
+<div id="fig2" ondrop="dropThis(event)" ondragover="allowDropThis(event)"></div>
+
+</body>
+</html>

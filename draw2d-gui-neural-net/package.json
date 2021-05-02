@@ -1,0 +1,15 @@
+{
+  "name": "draw2d-gui-neural-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "dependencies": {
+    "draw2d": "^1.0.38",
+    "express": "^4.17.1"
+  }
+}
