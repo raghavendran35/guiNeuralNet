@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "draw2d": "^1.0.38",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
